@@ -5,7 +5,7 @@ import React from "react"
 const Modal  = ({Visible, }) => {
     return (
         <View>
-           <View style={StyleS.modalContainer}>
+           <View style={styles.modalContainer}>
               <newModal animatioType= 'fade' trasnparent={false} visible={modalVisible}>
                 <View style={styles.modalContainer}>
                     <Text>Modal</Text>
